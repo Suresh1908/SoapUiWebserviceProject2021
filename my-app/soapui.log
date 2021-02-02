@@ -1,0 +1,49 @@
+2021-02-01 23:25:35,765 WARN  [SoapUI] Missing folder [C:\Users\LakshmiSureshThakkel\Desktop\Manipal\SDETPB8\my-app\ext] for external libraries
+2021-02-01 23:25:36,008 INFO  [DefaultSoapUICore] initialized soapui-settings from [C:\Users\LakshmiSureshThakkel\soapui-settings.xml]
+2021-02-01 23:25:37,869 INFO  [WsdlProject] Loaded project from [file:/C:/Users/LakshmiSureshThakkel/Desktop/Manipal/SDETPB8/my-app/WebserviceProject-maven-soapui-project.xml]
+2021-02-01 23:25:38,476 INFO  [SoapUITestCaseRunner] Running SoapUI tests in project [WebserviceProject-maven]
+2021-02-01 23:25:38,478 INFO  [SoapUITestCaseRunner] Running Project [WebserviceProject-maven], runType = SEQUENTIAL
+2021-02-01 23:25:38,515 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TC_001_Property and Property Transfer]
+2021-02-01 23:25:38,525 INFO  [SoapUITestCaseRunner] running step [Properties]
+2021-02-01 23:25:38,575 INFO  [SoapUITestCaseRunner] running step [Property Transfer to save order]
+2021-02-01 23:25:38,977 INFO  [SoapUITestCaseRunner] running step [SaveOrder]
+2021-02-01 23:25:40,725 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-02-01 23:25:40,727 INFO  [SoapUITestCaseRunner] running step [Property Transfer to get order by id]
+2021-02-01 23:25:40,738 INFO  [SoapUITestCaseRunner] running step [GetOrderById]
+2021-02-01 23:25:41,659 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-02-01 23:25:41,660 INFO  [SoapUITestCaseRunner] running step [Property Transfer to check order status]
+2021-02-01 23:25:41,686 INFO  [SoapUITestCaseRunner] running step [CheckOrderStatus]
+2021-02-01 23:25:42,741 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-02-01 23:25:42,742 INFO  [SoapUITestCaseRunner] running step [Property Transfer to check cancel order]
+2021-02-01 23:25:42,766 INFO  [SoapUITestCaseRunner] running step [CancelOrder]
+2021-02-01 23:25:43,681 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-02-01 23:25:43,689 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TC_001_Property and Property Transfer], time taken: 5127ms, status: FINISHED
+2021-02-01 23:25:43,702 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TC_002_Property and Property Transfer Expansion]
+2021-02-01 23:25:43,706 INFO  [SoapUITestCaseRunner] running step [Properties]
+2021-02-01 23:25:43,708 INFO  [SoapUITestCaseRunner] running step [SaveOrder]
+2021-02-01 23:25:45,251 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-02-01 23:25:45,253 INFO  [SoapUITestCaseRunner] running step [GetOrderById]
+2021-02-01 23:25:46,255 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-02-01 23:25:46,256 INFO  [SoapUITestCaseRunner] running step [CheckOrderStatus]
+2021-02-01 23:25:47,262 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-02-01 23:25:47,263 INFO  [SoapUITestCaseRunner] running step [CancelOrder]
+2021-02-01 23:25:48,183 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-02-01 23:25:48,186 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TC_002_Property and Property Transfer Expansion], time taken: 4463ms, status: FINISHED
+2021-02-01 23:25:48,191 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TC_003_Property and Groovy Script]
+2021-02-01 23:25:48,192 INFO  [SoapUITestCaseRunner] running step [Groovy Script]
+2021-02-01 23:25:48,738 INFO  [SoapUITestCaseRunner] running step [SaveOrder]
+2021-02-01 23:25:49,929 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-02-01 23:25:49,930 INFO  [SoapUITestCaseRunner] running step [GetOrderById]
+2021-02-01 23:25:50,845 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-02-01 23:25:50,846 INFO  [SoapUITestCaseRunner] running step [CheckOrderStatus]
+2021-02-01 23:25:51,716 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-02-01 23:25:51,717 INFO  [SoapUITestCaseRunner] running step [CancelOrder]
+2021-02-01 23:25:52,689 INFO  [SoapUITestCaseRunner] Assertion [SOAP Response] has status VALID
+2021-02-01 23:25:52,691 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [TC_003_Property and Groovy Script], time taken: 4480ms, status: FINISHED
+2021-02-01 23:25:52,696 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [Groovy Script to run test case]
+2021-02-01 23:25:52,698 INFO  [SoapUITestCaseRunner] running step [Groovy Script]
+2021-02-01 23:25:52,779 INFO  [SoapUITestCaseRunner] Running SoapUI testcase [TC_003_Property and Groovy Script]
+2021-02-01 23:25:52,779 INFO  [SoapUITestCaseRunner] Finished running SoapUI testcase [Groovy Script to run test case], time taken: 77ms, status: FINISHED
+2021-02-01 23:25:52,783 INFO  [SoapUITestCaseRunner] running step [Groovy Script]
+2021-02-01 23:25:52,788 INFO  [SoapUITestCaseRunner] Project [WebserviceProject-maven] finished with status [FINISHED] in 14302ms
+2021-02-01 23:25:52,791 INFO  [SoapUITestCaseRunner] running step [SaveOrder]
